@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/f688b3fb-95fe-49ab-a075-6dc9649c994b)
 ![image](https://github.com/user-attachments/assets/a0b510e2-4b5c-4270-b99d-626289e14df0)
 Keeps asking me to enter password
 
