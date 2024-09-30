@@ -13,13 +13,52 @@
             firstName = Console.ReadLine();
             Console.Write("Enter last name: ");
             lastName = Console.ReadLine();
+            string fullname = firstName + lastName;
+            bool isName = ValidName(fullname);
+           
             Console.Write("Enter age: ");
             age = Convert.ToInt32(Console.ReadLine());
+            bool isAge = validAge(age);
+            
             Console.Write("Enter Password: ");
             password = Console.ReadLine();
+            bool isPass = ValidPassword(password);
+           
             Console.Write("Enter email address: ");
             emailAddress = Console.ReadLine();
+            bool isEmail = validEmail(emailAddress);
 
+
+            while (isName == false)
+            {
+                Console.Write("Enter first name: ");
+                firstName = Console.ReadLine();
+                Console.Write("Enter last name: ");
+                lastName = Console.ReadLine();
+                fullname = firstName + lastName;
+                isName = ValidName(fullname);
+            }
+
+            while (isAge == false)
+            {
+                Console.Write("Enter age: ");
+                age = Convert.ToInt32(Console.ReadLine());
+                isAge = validAge(age);
+            }
+
+            while (isPass == false)
+            {
+                Console.Write("Enter Password: ");
+                password = Console.ReadLine();
+                isPass = ValidPassword(password);
+            }
+
+            while (isEmail == false)
+            {
+                Console.Write("Enter email address: ");
+                emailAddress = Console.ReadLine();
+                bool isEmail = validEmail(emailAddress);
+            }
 
             username = createUserName(firstName,lastName,age);
             Console.WriteLine($"Username is {username}, you have successfully registered please remember your password");
