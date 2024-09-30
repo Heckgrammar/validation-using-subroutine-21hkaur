@@ -2,10 +2,13 @@
 Keeps asking me to enter password
 
 ![image](https://github.com/user-attachments/assets/9e105fc0-662c-46b9-b6ce-ad2dfd999d0c)
-Won't let me run my code: ![image](https://github.com/user-attachments/assets/cbd0b1dd-44a7-4946-9c4d-199e79ac6e6a)
+Won't let me run my code:
+![image](https://github.com/user-attachments/assets/cbd0b1dd-44a7-4946-9c4d-199e79ac6e6a)
+
 
 ![image](https://github.com/user-attachments/assets/b2b6a885-dd90-4865-a62a-96bb8e174a54)
 My Code:
+    
     static void Main(string[] args)
     {
         string firstName, lastName, username, password, emailAddress;
